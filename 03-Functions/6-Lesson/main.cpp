@@ -1,98 +1,99 @@
 #include <iostream>
+#include <string>
+
 using namespace std;
 
-// void welcome(){
-//     cout << "Welcome to C++!" << endl;
-// }
-
-// void showPlayer(){
-//     cout << "PLayer: Assassin" << endl;
-// }
-
 // int main(){
-//     welcome();
-//     showPlayer();
+//     string weapons[3] = {"Sword", "Bow", "Axe"};
+
+//     cout << weapons[0] << endl;
+//     cout << weapons[1] << endl;
+//     cout << weapons[2] << endl;
 
 //     return 0;
 // }
 
-// void showPlayer(string name, int level){
-//     cout << "Player: " << name << endl;
-//     cout << "Level: " << level << endl;
-// }
+
 
 // int main(){
-//     showPlayer("Altair", 20);
-//     showPlayer("Ezio", 35);
-//     return 0;
-// }
+//     int scores[5] = {80, 90, 75, 100, 95};
 
-// int add(int a, int b){
-//     return a + b;
-// }
-
-// int calculateDamage(int attack, int armor){
-//     int damage = attack - armor;
-
-//     if (damage < 0){
-//         return 0;
+//     for (int i = 0; i < 5; i++){
+//         cout << "Score; " << scores[i] << endl;
 //     }
-//     return damage;
-// }
-
-// int main(){
-//     cout << add(10, 20) << endl;
-//     int damage = calculateDamage(80, 30);
-//     cout << "Damage: " << damage << endl;
 
 //     return 0;
 // }
 
 
 
-// void createPlayer(string name, int level = 1){
-//     cout << name << " - Level: " << level << endl;
-// }
+// int mian(){
+//     int numbers[5];
 
-// int main(){
-//     createPlayer("Altair");
-//     createPlayer("Ezio", 50);
+//     for (int i = 0; i < 5; i++){
+//         cout << "enter number " << i + 1 << ": ";
+//         cin >> numbers[i];
+//     }
 
-//     return 0;
-// }
-
-
-// int multiplay(int a, int b){
-//     return a * b;
-// }
-
-// double multiplay(double a, double b){
-//     return a * b;
-// }
-
-// int main(){
-//     cout << multiplay(5, 4) << endl;
-//     cout << multiplay(2.5, 3.0) << endl;
+//     cout << "Your numbers: ";
+//     for (int i = 0; i < 5; i++){
+//         cout << numbers[i] << " ";
+//     }
 
 //     return 0;
 // }
 
 
-// int playerLevel = 10;
-
-// void showLevel(){
-//     int bonus = 5;
-
-//     cout << "Level: " << playerLevel << endl;
-//     cout << "Bonus: " << bonus << endl;
-
-// }
 
 // int main(){
-//     showLevel();
+//     int numbers[5] = {10, 20, 30, 40, 50};
+//     int sum = 0;
 
-//     cout << playerLevel << endl;
+//     for (int i = 0; i < 5; i++){
+//         sum += numbers[i];
+//     }
+
+//     cout << "Total: " << sum << endl;
 
 //     return 0;
+// }
 
+
+
+
+// int main(){
+//     int numbers[5] = {25, 70, 15, 90, 40};
+
+//     int maximum = numbers[0];
+//     int minimum = numbers[0];
+
+//     for (int i = 1; i < 5; i++){
+//         if (numbers[i] > maximum){
+//             maximum = numbers[i];
+//         }
+//         if (numbers[i] < minimum){
+//             minimum = numbers[i];
+//         }
+//     }
+//     cout << "Maximum: " << maximum << endl;
+//     cout << "Minimum: " << minimum << endl;
+
+//     return 0;
+// }
+
+
+
+// void showScores(const int scores[], int size) {
+//     for (int i = 0; i < size; i++) {
+//         cout << scores[i] << " ";
+//     }
+//     cout << endl;
+// }
+
+// int main() {
+//     int scores[4] = {50, 70, 90, 100};
+
+//     showScores(scores, 4);
+
+//     return 0;
 // }
